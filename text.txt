@@ -17,3 +17,49 @@
     <script src="assets/js/icons/all.min.js"></script>
 </body>
 </html>
+
+E-commerce Platform Structure
+
+Pages:
+- index.html (Home page)
+- product.html (Products listing page)
+- product-details.html (Single product page)
+- categories.html (Categories listing page)
+- category-products.html (Products by category)
+- about.html (About us page)
+- contact.html (Contact page)
+- cart.html (Shopping cart page)
+- user/
+  - login.html (Login page)
+  - register.html (Registration page)
+  - profile.html (User profile page)
+- faq.html (FAQ page)
+- shipping-policy.html
+- returns-policy.html
+- terms-conditions.html
+- privacy-policy.html
+
+Assets:
+/assets
+  /css
+    - header.css
+    - index.css
+    - product.css
+    - about.css
+    - contact.css
+    /bootstrap
+      - bootstrap.min.css
+      - bootstrap.min.css.map
+    /icons
+      - all.min.css
+  /js
+    /bootstrap
+      - bootstrap.bundle.min.js
+      - bootstrap.bundle.min.js.map
+    /icons
+      - all.min.js
+  /images
+    /products
+    /banners
+    /categories
+    /icons

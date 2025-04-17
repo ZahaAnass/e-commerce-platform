@@ -1,0 +1,46 @@
+:root{
+    --main-color: #8e7ade;
+}
+
+.top-header{
+    background-color: #f5f8fc;
+}
+
+.main-color{
+    color: var(--main-color);
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600 ;
+    font-size: 1.2rem ;
+}
+
+header .logo-1,
+footer .logo-1{
+    font-size: 1.5rem ;
+    font-weight: 700 ;
+    color: var(--main-color);
+}
+
+header .logo-2,
+footer .logo-2{
+    font-size: 1.5rem ;
+    font-weight: 700 ;
+}
+
+footer .section-title{
+    font-size: 1.5rem ;
+    font-weight: 700 ;
+}
+
+footer svg{
+    color: var(--main-color);
+}
+
+footer .main-btn{
+    background-color: var(--main-color);
+    color: #fff;
+    font-weight: 600 ;
+    font-size: 1.2rem ;
+}
