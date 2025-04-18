@@ -1,9 +1,9 @@
 class SpecialHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-            <header class="py-3 bg-white">
-                <nav class="navbar navbar-expand-lg" aria-label="Eleventh navbar example">
-                    <div class="container">
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top" aria-label="Eleventh navbar example">
+                    <div class="container-fluid">
                         <a class="navbar-brand" href="index.html"><span class="logo-1">Style</span> <span class="logo-2">Hub</span></a>
                         <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
