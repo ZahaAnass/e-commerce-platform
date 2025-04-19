@@ -3,7 +3,7 @@
 }
 
 body .hero{
-    height: 100vh;
+    height: 80vh;
     background-color: #8e7ade;
     display: flex;
     justify-content: center;
@@ -45,6 +45,7 @@ main .hero-text{
 /* Base styles for category section */
 .category {
     padding: 3rem 0;
+    background-color: #f9fafb;
 }
 
 /* Category card styling */
@@ -99,11 +100,62 @@ main .hero-text{
 }
 
 .featured-products .main-btn{
-    background-color: #8e7ade;
+    background-color: var(--main-color);
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 5px;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 600;
+}
+
+.product-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    filter: brightness(0.85);
+}
+
+.product-card .product-btn{
+    background-color: var(--main-color);
+    color: white;
+    font-weight: 600;
+}
+.product-btn:hover {
+    background-color: #5546e0;
+    color: white;
+}
+
+.product-btn {
+    background-color: var(--main-color);
+    color: white;
+}
+.product-btn:hover {
+    background-color: #5546e0;
+    color: white;
+}
+.product-card {
+    transition: transform 0.3s;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+.product-card:hover {
+    transform: translateY(-5px);
+}
+.main-title {
+    color: #333;
+    font-weight: 600;
+}
+.new-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #6c5ce7;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    z-index: 10;
 }
