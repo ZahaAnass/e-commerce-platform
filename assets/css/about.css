@@ -1,0 +1,51 @@
+:root{
+    --main-color: #8e7ade;
+}
+
+body .hero{
+    height: 40vh;
+    background-color: #8e7ade;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0 2rem;
+    margin: 4rem 0;
+}
+
+@media (max-width: 768px) {
+    body .hero{
+        height: 80vh;
+    }
+}
+
+body .hero h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.main-btn{
+    color: #8e7ade;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-right: 1rem;
+}
+
+main .hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-title{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
