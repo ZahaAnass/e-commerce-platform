@@ -1,0 +1,68 @@
+:root{
+    --main-color: #8e7ade;
+}
+
+body .hero {
+    height: 30vh;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0 2rem;
+    margin: 4rem 0 2rem 0;
+}
+
+@media (max-width: 768px) {
+    body .hero{
+        height: 30vh;
+    }
+}
+
+body .hero h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.main-btn-reverse{
+    color: white;
+    background-color: #8e7ade;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.main-btn-reverse:hover{
+    background-color: transparent;
+    color: #8e7ade;
+    border: 1px solid #8e7ade;
+    transition: all 0.3s ease;
+}
+
+.text-main{
+    color: #8e7ade;
+}
+
+.main-title{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.faq-card {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(30, 34, 90, 0.07);
+    padding: 1.5rem 1.25rem;
+    margin-bottom: 1rem;
+    min-height: 150px;
+    transition: box-shadow 0.3s;
+}
+.faq-card:hover {
+    box-shadow: 0 4px 24px rgba(30, 34, 90, 0.13);
+}
