@@ -14,12 +14,6 @@ body .hero {
     margin: 4rem 0 2rem 0;
 }
 
-@media (max-width: 768px) {
-    body .hero{
-        height: 30vh;
-    }
-}
-
 body .hero h1{
     font-size: 3rem;
     margin-bottom: 1rem;
