@@ -1,0 +1,116 @@
+:root{
+    --main-color: #8e7ade;
+}
+
+body .hero {
+    height: 30vh;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0 2rem;
+    margin: 4rem 0 2rem 0;
+}
+
+body .hero h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.main-btn{
+    color: var(--bs-gray);
+    background-color: var(--bs-white);
+    padding: 0.5rem;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.main-title{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+/* Category Card Animation */
+.category-card {
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.4s;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-height: 320px;
+    max-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+@media (max-width: 991.98px) {
+    .category-card {
+        min-height: 220px;
+        max-height: 260px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .category-card {
+        min-height: 160px;
+        max-height: 200px;
+    }
+}
+.category-card:hover {
+    transform: scale(1.035) translateY(-4px);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.16);
+    z-index: 2;
+}
+
+
+/* Overlay effect for the card body */
+.category-card .card-body {
+    transition: background 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    background: rgba(30,30,30,0.45);
+    padding: 1.5rem 1.25rem;
+}   
+.category-card:hover .card-body {
+    background: rgba(30,30,30,0.65);
+}
+
+/* Special color overlay for shoes */
+.category-shoes .card-body {
+    background: rgba(142, 122, 222, 0.65); /* Use --main-color with some opacity */
+}
+.category-shoes:hover .card-body {
+    background: rgba(142, 122, 222, 0.85);
+}
+
+
+.category-card:hover .main-btn{
+    background-color: var(--main-color) ;
+    color: var(--bs-white);
+    border: 1px solid var(--main-color);
+    transition: all 0.3s ease;
+}
+
+/* Background images for each category */
+.category-clothing {
+    background-image: url(../images/category-clothing.jpg);
+}
+.category-accessories {
+    background-image: url(../images/category-accessories.jpg);
+}
+.category-electronics {
+    background-image: url(../images/category-electronics.jpg);
+}
+.category-home {
+    background-image: url(../images/category-home-living.jpg);
+}
+.category-shoes {
+    background-image: url(../images/category-shoes.jpg);
+}
