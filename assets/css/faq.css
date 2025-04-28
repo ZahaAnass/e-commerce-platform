@@ -17,6 +17,12 @@ body .hero {
     margin: 4rem 0 2rem 0;
 }
 
+body .hero h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
 .accordion {
     border-radius: 16px;
     box-shadow: 0 2px 16px rgba(142, 122, 222, 0.05);
