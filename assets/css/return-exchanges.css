@@ -1,0 +1,17 @@
+body .hero {
+    height: 30vh;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0 2rem;
+    margin: 4rem 0 2rem 0;
+}
+
+body .hero h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
