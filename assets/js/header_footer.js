@@ -74,7 +74,7 @@ class SpecialFooter extends HTMLElement {
                             <ul class="list-unstyled">
                                 <li class="my-4"><a href="faq.html" class="text-decoration-none text-black">FAQ</a></li>
                                 <li class="mb-4"><a href="shipping-policy.html" class="text-decoration-none text-black">Shipping Policy</a></li>
-                                <li class="mb-4"><a href="returns-policy.html" class="text-decoration-none text-black">Returns & Exchanges</a></li>
+                                <li class="mb-4"><a href="return-exchanges.html" class="text-decoration-none text-black">Returns & Exchanges</a></li>
                                 <li class="mb-4"><a href="terms-conditions.html" class="text-decoration-none text-black">Terms & Conditions</a></li>
                                 <li class="mb-4"><a href="privacy-policy.html" class="text-decoration-none text-black">Privacy Policy</a></li>
                             </ul>
