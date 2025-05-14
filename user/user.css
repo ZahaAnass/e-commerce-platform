@@ -1,0 +1,67 @@
+:root{
+    --main-color: #8e7ade;
+}
+
+body {
+    background: #f8f9fa;
+}
+
+.card {
+    border-radius: 1.5rem;
+}
+
+.card .form-label {
+    font-weight: 500;
+}
+
+.card .icon-primary {
+    color: var(--main-color); 
+}
+
+.card .btn-primary {
+    background: var(--main-color);
+    border: none;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+}
+
+.card .btn-primary:hover {
+    background: #6c5bc2;
+}
+
+.btn.main {
+    background: var(--main-color);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0.02em;
+    box-shadow: 0 1px 6px rgba(80,60,150,0.06);
+    transition: background 0.2s, color 0.2s;
+    padding: 0.5rem;
+}
+
+.btn.main:hover, .btn.main:focus {
+    background: #6c5bc2;
+    color: #fff;
+}
+
+.profile-card .icon-primary {
+    font-size: 1.4rem;
+    margin-right: 0.6rem;
+}
+
+.profile-card .fw-semibold {
+    font-weight: 700 !important;
+    font-size: 1.25rem;
+}
+
+input.form-control:focus {
+    border-color: var(--main-color);
+    box-shadow: 0 0 0 0.15rem rgba(var(--main-color), 0.15);
+}
+
+.profile-section{
+    margin-top: 3rem;
+}
