@@ -18,7 +18,7 @@
 </body>
 </html>
 
-E-commerce Platform Structure
+E-commerce Platform Structure:
 
 Pages:
 - index.html (Home page)
